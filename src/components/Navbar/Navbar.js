@@ -9,7 +9,7 @@ const Navbar = () => {
                 <h2 className='logo-title'>Test Your Knowledge</h2>
             </div>
             <nav className='nav-items'>
-                <NavLink to='/'>Topics</NavLink>
+                <NavLink to='/topics'>Topics</NavLink>
                 <NavLink to='/statistics'>Statistics</NavLink>
                 <NavLink to="/blogs">Blogs</NavLink>
             </nav>
