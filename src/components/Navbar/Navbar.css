@@ -1,0 +1,26 @@
+.title{
+    display: flex;
+}
+
+.logo-img{
+    width: 36px;
+    padding: 20px;
+}
+.logo-title{
+    color: orange;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    padding: 15px;
+    font-size: larger;
+    font-weight: 600;
+}
+.header a{
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 2px 5px;
+}
