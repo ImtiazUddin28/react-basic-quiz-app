@@ -1,5 +1,6 @@
 .title{
     display: flex;
+    margin-left: 5%;
 }
 
 .logo-img{
@@ -18,9 +19,11 @@
     padding: 15px;
     font-size: larger;
     font-weight: 600;
+    margin-right: 5%;
 }
 .header a{
     text-decoration: none;
     margin-right: 15px;
     padding: 2px 5px;
+    color:skyblue;
 }
