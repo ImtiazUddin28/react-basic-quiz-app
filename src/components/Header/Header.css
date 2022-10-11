@@ -1,0 +1,28 @@
+.header_container{
+    display: flex;
+    justify-content: center;
+    
+}
+.header_description{
+    padding: 0 5%;
+}
+.header_description h3{
+    color: rgb(199, 135, 52);
+    font-style: italic;
+    padding: 5px;
+}
+.header_description span{
+    color: rgb(240, 130, 87);
+}
+.header_pic{
+    margin: 0 10%;
+    padding: 0 5%;
+    width: 40%;
+}
+
+.header_pic img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
