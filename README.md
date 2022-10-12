@@ -3,7 +3,7 @@
 This project name is b6-quiz-crackerz-practice-nine
 
 ## Project Netlify Live link:
-    https://gilded-sprite-82c4bb.netlify.app/
+   [ https://gilded-sprite-82c4bb.netlify.app/](https://gilded-sprite-82c4bb.netlify.app/)
 ## Most Important Features
     Four Skill Test exams are available
     Number of Questions show on chart
