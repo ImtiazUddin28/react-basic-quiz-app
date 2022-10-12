@@ -6,7 +6,7 @@ import './TopicDetails.css'
 const TopicDetails = () => {
     const topicsData = useLoaderData();
     const questions = topicsData.data.questions;
-    console.log(questions);
+
     return (
         <div>
             <h1 className='topic-heading'>Quiz of {topicsData.data.name}</h1>
