@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Blogs from './components/Blogs/Blogs';
+import Error from './components/Error/Error';
 import Statistics from './components/Statistics/Statistics';
 import TopicDetails from './components/TopicDetails/TopicDetails';
 import Topics from './components/Topics/Topics';
@@ -34,26 +35,10 @@ function App() {
           },
           element: <TopicDetails></TopicDetails>
         },
-        // {
-        //   path: 'posts',
-        //   loader: async() =>{
-        //     return fetch('https://jsonplaceholder.typicode.com/posts')
-        //   },
-        //   element: <Posts></Posts>
-        // },
-        // {
-        //   path: '/post/:postId',
-        //   loader: async({params}) =>{
-        //     return fetch(`https://jsonplaceholder.typicode.com/posts/${params.postId}`)
-        //   },
-        //   element: <PostDetails></PostDetails>
-        // }
+        
       ]
     },
-    { path: '*', element: <div>
-      <h1>This route not found: 404</h1>
-      <h2>Please use a right path name</h2>
-    </div> }
+    { path: '*', element: <Error></Error>}
   ])
   return (
     <div className="App">
