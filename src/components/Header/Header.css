@@ -4,7 +4,8 @@
     
 }
 .header_description{
-    padding: 0 5%;
+    padding: 0 15px;
+    margin-left: 5%;
 }
 .header_description h3{
     color: rgb(199, 135, 52);
@@ -25,4 +26,24 @@
     height: 160px;
     border-radius: 50%;
 }
+@media only screen and (max-width: 600px) {
+    .header_container {
+      display: block;
+    }
+    .header_description {
+        width: 85%;
+    }
+    .header_pic{
+        margin: 0 5px;
+        padding: 0 5%;
+        width: 100%;
+    }
+    .header_pic img{
+        width: 80%;
+        height: 70%;
+        margin: 5%;
+        border-radius: 5%;
+        
+    }
+  }
 
