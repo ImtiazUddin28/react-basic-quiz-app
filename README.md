@@ -1,7 +1,13 @@
-# Getting Started with Create React App
+# Project Name:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project name is b6-quiz-crackerz-practice-nine
 
+## Project Netlify Live link:
+    Link: https://github.com/b6-quiz-crackerz-practice-nine/blob/master/
+## Most Important Features
+    Four Skill Test exams are available
+    Number of Questions show on chart
+    Most Important Instructions show on Blogs
 ## Available Scripts
 
 In the project directory, you can run:
